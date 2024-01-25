@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.QuadraticEquationSolverTest" time="0.097" tests="91" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\TPMaven\demo\target\test-classes;D:\TPMaven\demo\target\classes;C:\Users\admin\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Lagos"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire3215231852542503815\surefirebooter11712721188287518306.jar C:\Users\admin\AppData\Local\Temp\surefire3215231852542503815 2023-12-06T16-11-25_791-jvmRun1 surefire2211558832725569642tmp surefire_08218058846249251108tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\TPMaven\demo\target\test-classes;D:\TPMaven\demo\target\classes;C:\Users\admin\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\TPMaven\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire3215231852542503815\surefirebooter11712721188287518306.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="D:\TPMaven\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.9.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\apache-maven-3.9.5\bin;C:\Users\admin\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="testSolveA_TresGrandNegatif_B_ProcheDeZeroNegatif_C_TresProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.012"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_TresGrandPositif_C_PositifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_ProcheDeZeroNegatif_B_ProcheDeZeroPositif_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_TresGrandNegatif_B_TresProcheDeZeroPositif_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresGrandPositif_B_TresGrandNegatif_C_PositifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_NegatifNormal_B_TresGrandPositif_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_NegatifNormal_B_Zero_C_NegatifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresGrandNegatif_B_Zero_C_PositifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_TresGrandNegatif_C_TresGrandNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_PositifNormal_B_TresProcheDeZeroPositif_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroNegatif_B_TresProcheDeZeroPositif_C_TresGrandPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_ProcheDeZeroNegatif_C_ProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_NegatifNormal_B_Zero_C_TresGrandPositif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_NegatifNormal_B_TresProcheDeZeroNegatif_C_PositifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_TresProcheDeZeroNegatif_C_NegatifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_PositifNormal_B_ProcheDeZeroNegatif_C_NegatifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresGrandNegatif_B_TresGrandPositif_C_Zero_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_TresGrandNegatif_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroNegatif_B_ProcheDeZeroPositif_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_ProcheDeZeroNegatif_B_ProcheDeZeroNegatif_C_PositifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.003"/>
+  <testcase name="testSolveA_TresGrandPositif_B_ProcheDeZeroPositif_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresGrandPositif_B_NegatifNormal_C_TresGrandPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_Zero_B_TresProcheDeZeroPositif_C_PositifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresGrandPositif_B_TresProcheDeZeroNegatif_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresGrandPositif_B_ProcheDeZeroNegatif_C_Zero_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_ProcheDeZeroNegatif_B_TresProcheDeZeroPositif_C_ProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_NegatifNormal_B_ProcheDeZeroNegatif_C_TresProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_NegatifNormal_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_Zero_B_TresGrandPositif_C_TresGrandPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_ProcheDeZeroNegatif_B_TresGrandNegatif_C_TresGrandPositif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_Zero_B_NegatifNormal_C_NegatifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_PositifNormal_B_TresGrandNegatif_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresGrandNegatif_B_TresGrandNegatif_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_TresProcheDeZeroNegatif_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroNegatif_B_ProcheDeZeroPositif_C_PositifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_NegatifNormal_B_NegatifNormal_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_Zero_B_TresGrandNegatif_C_TresProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_TresProcheDeZeroPositif_C_Zero_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_ProcheDeZeroPositif_C_TresProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_PositifNormal_B_TresProcheDeZeroNegatif_C_TresProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_ProcheDeZeroPositif_C_NegatifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_ProcheDeZeroNegatif_C_TresGrandPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresGrandNegatif_B_PositifNormal_C_NegatifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_TresGrandPositif_B_TresProcheDeZeroPositif_C_TresProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroNegatif_B_Zero_C_ProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_ProcheDeZeroNegatif_B_NegatifNormal_C_TresProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroNegatif_B_TresProcheDeZeroNegatif_C_TresGrandPositif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_TresGrandPositif_B_TresGrandPositif_C_NegatifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroNegatif_B_TresGrandNegatif_C_NegatifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_TresGrandPositif_B_PositifNormal_C_TresGrandNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_PositifNormal_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_ProcheDeZeroNegatif_B_PositifNormal_C_NegatifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_Zero_B_PositifNormal_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_PositifNormal_B_NegatifNormal_C_ProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_PositifNormal_B_Zero_C_PositifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_TresGrandPositif_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_Zero_C_TresProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_NegatifNormal_B_TresProcheDeZeroPositif_C_NegatifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_TresGrandPositif_C_ProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_TresProcheDeZeroPositif_C_ProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_PositifNormal_B_NegatifNormal_C_PositifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_TresGrandNegatif_B_ProcheDeZeroPositif_C_TresGrandPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_Zero_B_ProcheDeZeroPositif_C_ProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_TresGrandPositif_C_TresProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_ProcheDeZeroNegatif_B_Zero_C_Zero_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_ProcheDeZeroNegatif_B_TresProcheDeZeroNegatif_C_TresGrandNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_Zero_B_TresProcheDeZeroNegatif_C_Zero_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_NegatifNormal_B_ProcheDeZeroPositif_C_TresGrandNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresGrandPositif_B_Zero_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_TresProcheDeZeroPositif_C_TresGrandNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_NegatifNormal_C_Zero_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_PositifNormal_B_PositifNormal_C_Zero_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_PositifNormal_B_Zero_C_TresGrandPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_Zero_B_Zero_C_TresGrandNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresGrandNegatif_B_NegatifNormal_C_TresGrandNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroNegatif_B_PositifNormal_C_TresProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_ProcheDeZeroNegatif_C_TresProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_Zero_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_TresGrandPositif_B_TresGrandNegatif_C_ProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroNegatif_B_TresGrandPositif_C_Zero_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_ProcheDeZeroPositif_B_PositifNormal_C_TresGrandPositif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_Zero_B_ProcheDeZeroNegatif_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroPositif_B_PositifNormal_C_PositifNormal_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_PositifNormal_B_ProcheDeZeroPositif_C_Zero_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_NegatifNormal_B_TresGrandNegatif_C_Zero_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_PositifNormal_B_TresGrandPositif_C_TresGrandNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_TresProcheDeZeroNegatif_B_ProcheDeZeroNegatif_C_TresGrandNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_NegatifNormal_B_PositifNormal_C_ProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+  <testcase name="testSolveA_TresGrandNegatif_B_TresProcheDeZeroNegatif_C_ProcheDeZeroNegatif_" classname="com.example.QuadraticEquationSolverTest" time="0.001"/>
+  <testcase name="testSolveA_ProcheDeZeroNegatif_B_TresGrandPositif_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0.002"/>
+  <testcase name="testSolveA_TresProcheDeZeroNegatif_B_NegatifNormal_C_ProcheDeZeroPositif_" classname="com.example.QuadraticEquationSolverTest" time="0"/>
+</testsuite>
